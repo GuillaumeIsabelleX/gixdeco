@@ -1,10 +1,10 @@
 {
-  "name": "gixdeco",
-  "version": "0.0.0",
-  "description": "A Decorator extractor",
-  "main": "gixdeco.js",
+  "name": "gixdeko",
+  "version": "0.0.2",
+  "description": "gixdeko - A Decorator extractor",
+  "main": "gixdeko.js",
   "scripts": {
-    "test": "node tests/test.gixdeco.js"
+    "test": "node tests/test.gixdeko.js"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "gix",
+    "deko",
     "decorator",
     "extractor"
   ],

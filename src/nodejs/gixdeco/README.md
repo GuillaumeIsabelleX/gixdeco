@@ -1,22 +1,22 @@
-# gixdeco
+# gixdeko
 @stcgoal Extract decorator from string
 
 ## Install ##
 ```bash
 #!/bin/bash
-npm i gixdeco --save
+npm i gixdeko --save
 ```
 
 ## Usage ##
 
 ```javascript
-var gixdeco = require('gixdeco');
+var gixdeko = require('gixdeko');
 
 var
     textDeco = "@v 1812090529 A Goal I have is to get out an Object I can publish and use from anywhere in the system helping information consistency and keeps flexibility";
 
 
 
-console.log(tool.geto(textDeco));
+console.log(gixdeko.geto(textDeco));
 
 ```
