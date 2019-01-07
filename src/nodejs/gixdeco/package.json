@@ -2,13 +2,13 @@
   "name": "gixdeco",
   "version": "0.0.0",
   "description": "A Decorator extractor",
-  "main": "tests/test.js",
+  "main": "gixdeco.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/test.gixdeco.js"
   },
   "repository": {
     "type": "git",
-    "url": "    \"url\": \"git+https://github.com/GuillaumeIsabelleX/gixstr.git\""
+    "url": "https://github.com/GuillaumeIsabelleX/gixdeco.git"
   },
   "keywords": [
     "gix",
