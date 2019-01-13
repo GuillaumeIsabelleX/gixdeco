@@ -37,11 +37,14 @@ module.exports = {
             var cmt = 0;
             otxt.split(delimiter).forEach(element => {
                 // if (element.lenght > 2) {
-                var rgeto = this.geto(element, false, includeTlido);
+                if (element != "" && element != " " && element != "," && element != "\n" && element != ".") {
 
-                if (rgeto != null) {
-                    r[cmt] = rgeto
-                    cmt++;
+                    var rgeto = this.geto(element, false, includeTlido);
+
+                    if (rgeto != null) {
+                        r[cmt] = rgeto
+                        cmt++;
+                    }
                 }
                 // }
             });

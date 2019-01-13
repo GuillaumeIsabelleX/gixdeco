@@ -4,10 +4,10 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 
-## [0.0.6] - 2019-01-12
+## [0.0.7] - 2019-01-12
 * added method .xtro which integrate delimiter-direct-translation into a structured result
 
-## [0.0.4-5] - 2019-01-07
+## [0.0.4-5-6] - 2019-01-07
 * forget about it ;)
 
 ## [0.0.2] - 2019-01-07

@@ -1,6 +1,6 @@
 {
   "name": "gixdeko",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "gixdeko - A Decorator extractor",
   "main": "gixdeko.js",
   "scripts": {
