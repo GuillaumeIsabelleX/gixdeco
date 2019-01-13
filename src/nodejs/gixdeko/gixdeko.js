@@ -28,8 +28,11 @@ module.exports = {
     xtro: function (str, delimiter = "\n", includeTlido = false, keepOriginalText = false) {
 
         var otxt = str;
-        var r = new Object();
         var o = new Object();
+        var r = [];
+
+
+
         if (keepOriginalText) o.text = str;
 
         if (otxt.indexOf(delimiter) > -1) {
@@ -42,7 +45,9 @@ module.exports = {
                     var rgeto = this.geto(element, false, includeTlido);
 
                     if (rgeto != null) {
-                        r[cmt] = rgeto
+
+                        r.push(rgeto);
+                        //  r[cmt] = rgeto
                         cmt++;
                     }
                 }
@@ -51,7 +56,10 @@ module.exports = {
         }
         else //parse one single line
         {
-            r[0] = this.geto(otxt);
+            var rgeto = this.geto(otxt);
+            if (rgeto != null)
+                r.push(rgeto);
+
         }
         o.results = r;
 

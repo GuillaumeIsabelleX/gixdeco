@@ -1,7 +1,7 @@
 {
   "name": "gixdeko",
-  "version": "0.0.7",
-  "description": "gixdeko - A Decorator extractor",
+  "version": "0.0.8",
+  "description": "gixdeko - A Decorator extractor. You can get a hierarchy of decorator from using this.  Useful if you decorate with @v Vision, @a Action, @s Status, ...",
   "main": "gixdeko.js",
   "scripts": {
     "test": "node tests/test.gixdeko.js"
