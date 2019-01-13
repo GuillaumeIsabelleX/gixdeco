@@ -158,7 +158,7 @@ function extractDecorator2(text) {
     try {
         var email =
             text.match(reSTCDeco);
-        console.log("DEBUG: reSTCDeco:" + email);
+        //  console.log("DEBUG: reSTCDeco:" + email);
         var deco = email[0].split('@')[1];
         return deco;
 
