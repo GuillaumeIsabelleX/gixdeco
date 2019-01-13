@@ -1,6 +1,6 @@
 {
   "name": "gixdeko",
-  "version": "0.0.3",
+  "version": "0.0.5,
   "description": "gixdeko - A Decorator extractor",
   "main": "gixdeko.js",
   "scripts": {
@@ -19,6 +19,6 @@
   "author": "J. Guillaume Isabelle",
   "license": "MIT",
   "dependencies": {
-    "tlid": "^1.0.3"
+    "tlid": "^1.0.8"
   }
 }

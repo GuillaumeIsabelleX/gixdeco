@@ -3,8 +3,11 @@ All notable changes to this project will be documented in this file.
  
 ## [Unreleased]
 
-## [0.0.3] - 2019-01-07
-* Minor renaming files and repo for disassociation with deco
+## [0.0.5] - 2019-01-12
+* added method .xtro which integrate delimiter-direct-translation into a structured result
+
+## [0.0.4] - 2019-01-07
+* forget about it ;)
 
 ## [0.0.2] - 2019-01-07
 * NOTICE OF NAME CHANGED to gixdeko
