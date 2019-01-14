@@ -1,5 +1,22 @@
 # gixdeko
-@stcgoal Extract decorator from string
+
+@stcgoal Extract decorator from string and generate a structural hierarchy of object from the parsing
+
+## Goal ##
+* Transforming simple text having a basic decorated token language 
+* Serve a resulting object to interfaces, routing so they could integrate and do a loading @action.  By implication, if you get the picture, it creates a loadable object just before an end-result or a phasing. 
+* To summarize it, you decorate your code with your intentions and your observations in relation to that intention.
+* Using package [tlid](), the resulting object is enriched from it.  
+```sh
+#https://www.npmjs.com/package/tlid
+npm i tlid --save
+```
+ [tlid](https://www.npmjs.com/package/tlid)
+## Limitation of the scope ##
+* It has no intention to create an end-result (ie. a structural charting), rather, its purpose is to extract, transform and propose a loadable form of structured object
+
+## Extendability ##
+### 
 
 ## Install ##
 ```bash
@@ -14,10 +31,10 @@ var gixdeko = require('gixdeko');
 
 var
     textDeco = `
-    @v 1812090529 A Goal I have is to get out an Object I can publish and use from anywhere in the system helping information consistency and keeps flexibility
-     @a 190112 My Action
-     @a 190112 My Action
-     @cr 190112 Where are we in relationship to that goal
+    @v Serve a resulting object to interfaces, routing so they could integrate and do a loading @action.  By implication, if you get the picture, it creates a loadable object just before an end-result or a phasing. 190114
+      @a 
+      @a ...1100 
+      @cr 190112 Indentation of next line is detected only when deco
     
     `;
 

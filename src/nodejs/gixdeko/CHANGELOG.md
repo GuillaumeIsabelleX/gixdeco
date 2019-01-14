@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file.
  
 ## [Unreleased]
 
+## [0.0.9] - 2019-01-12
+* Minor fix in returning deko object
 
 ## [0.0.8] - 2019-01-12
 * added method .xtro which integrate delimiter-direct-translation into a structured result

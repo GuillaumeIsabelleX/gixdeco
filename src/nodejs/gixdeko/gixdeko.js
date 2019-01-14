@@ -20,12 +20,16 @@ module.exports = {
 
     /**
      *  //@v Extract decorator as structured object 190113
+     * //@a  GIXDeko.Package upgrade : @feature 1901131337 Considering Next line as same type or hierarchy if indented. 1901141700
+     * //@result a dekos object is created and childs are added to it
      * 
      * @param {*} str 
      * @param {*} delimiter 
-     * @param {*} includeTlido  keep tlido object in result
+     * @param {*} includeTlido 
+     * @param {*} keepOriginalText 
+     * @param {*} ifIndentedConsiderNextLineAsSameIncludedType 
      */
-    xtro: function (str, delimiter = "\n", includeTlido = false, keepOriginalText = false) {
+    xtro: function (str, delimiter = "\n", includeTlido = false, keepOriginalText = false, ifIndentedConsiderNextLineAsSameIncludedType = true) {
 
         var otxt = str;
         var o = new Object();
@@ -41,6 +45,8 @@ module.exports = {
             otxt.split(delimiter).forEach(element => {
                 // if (element.lenght > 2) {
                 if (element != "" && element != " " && element != "," && element != "\n" && element != ".") {
+
+                    var indentOfElement = getElementIndenting(element);
 
                     var rgeto = this.geto(element, false, includeTlido);
 
@@ -62,6 +68,7 @@ module.exports = {
 
         }
         o.results = r;
+
 
         return o;
     },
@@ -182,6 +189,15 @@ function extractDecorator2(text) {
 
 
 
+/**
+ *  //@a 19011414 calculated the amout of space/tag on the beginning of the element and return it.
+ * 
+ * @param {*} element 
+ */
+function getElementIndenting(element) {
+
+    return 0;
+}
 
 
 
