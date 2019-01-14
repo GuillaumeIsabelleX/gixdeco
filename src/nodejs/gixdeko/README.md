@@ -7,11 +7,14 @@
 * Serve a resulting object to interfaces, routing so they could integrate and do a loading @action.  By implication, if you get the picture, it creates a loadable object just before an end-result or a phasing. 
 * To summarize it, you decorate your code with your intentions and your observations in relation to that intention.
 * Using package [tlid](), the resulting object is enriched from it.  
+* Be complemented in VSCode by Extension [Deko Comments]()
 ```sh
 #https://www.npmjs.com/package/tlid
 npm i tlid --save
 ```
- [tlid](https://www.npmjs.com/package/tlid)
+ [tlid]:https://www.npmjs.com/package/tlid
+ [Deko Comments]:https://marketplace.visualstudio.com/items?itemName=GuillaumeIsabelle.gixdeko-comments
+
 ## Limitation of the scope ##
 * It has no intention to create an end-result (ie. a structural charting), rather, its purpose is to extract, transform and propose a loadable form of structured object
 
